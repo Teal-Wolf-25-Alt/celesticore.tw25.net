@@ -1,0 +1,121 @@
+html,
+body {
+    background-image: url("images/website_bg.png");
+    font-family: 'Comic Sans', 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    /* Ugly fix for vertical scrollbar on Chromium Based Browsers */
+    overflow-x: hidden;
+}
+
+p {
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+ul li {
+    color: #ffffff;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: right;
+    list-style: none;
+}
+
+ul.menu li {
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+a.menu-link {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.menu-button {
+    background-color: #00000000;
+    border: none;
+}
+
+img.logo {
+    margin-top: -1%;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100hv;
+    z-index: 10;
+    margin: 0;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: 0px;
+    padding-right: 20px;
+}
+
+.site-title {
+    color: pink;
+    float: right;
+}
+
+@media (orientation: portrait) {
+    .site-title {
+        font-size: 50px;
+    }
+
+    .menu-link {
+        font-size: 50px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (orientation: landscape) {
+    .menu-link {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+}
