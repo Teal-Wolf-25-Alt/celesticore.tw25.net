@@ -24,6 +24,19 @@ footer {
     object-fit: contain;
 
 }
+.social-img {
+    width: auto;
+}
+
+.text-social {
+    flex:auto;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: palevioletred;
+}
 
 @media (orientation: landscape) {
     .outer-container {
@@ -45,6 +58,12 @@ footer {
     p {
         font-size: larger;
     }
+    .social-img {
+        height: 50px;
+    }
+    .social {
+        padding-left: 20%;
+    }
 }
 
 @media (orientation: portrait) {
@@ -58,12 +77,12 @@ footer {
 
     .text-section {
         padding-left: 0;
-        padding-top: 25%;
+        padding-top: 10%;
     }
     .home-image {
-        height: 75%;
-        width:75%;
-        padding-left: 12.5%;
+        height: 768px;
+        width:768px;
+        padding-left: 0;
     }
     h1 {
         font-size: 140px;
@@ -72,5 +91,13 @@ footer {
     p {
         font-size: 210%;
         text-align: center;
+    }
+
+    .social-img {
+        height: 200px;
+    }
+
+    .social {
+        padding-left: 40%;
     }
 }
