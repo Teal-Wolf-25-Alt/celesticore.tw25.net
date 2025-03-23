@@ -2,9 +2,8 @@ h1 {
     font-family: 'Tofu', 'Comic Sans', 'Open Sans', sans-serif;
 }
 
-footer {
-    margin-top: 7.4%;
-    font-size: small;
+.mobile-notice {
+    color: pink;
 }
 
 .outer-container {
@@ -64,6 +63,11 @@ a {
     .social {
         padding-left: 20%;
     }
+
+    .mobile-notice {
+        color: #00000000;
+        font-size: 0px;
+    }
 }
 
 @media (orientation: portrait) {
@@ -99,5 +103,8 @@ a {
 
     .social {
         padding-left: 40%;
+    }
+    .mobile-notice {
+        font-size: 48px;
     }
 }
